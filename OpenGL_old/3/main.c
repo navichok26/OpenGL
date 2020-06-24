@@ -63,6 +63,8 @@ int main(int argc, char **argv) {
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	glutDisplayFunc(display);
+
+	// Функция отрисовки окна в режиме ожидания
 	glutIdleFunc(display);
 	
 	// Для обычных клавиш
