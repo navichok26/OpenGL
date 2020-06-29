@@ -13,7 +13,7 @@ void keyboard(unsigned char key, int x, int y) {
 		case 27:
 			exit(0);
 		break;
-		
+
 		case 49:
 			color.red = 1;
 			color.green = 0;
@@ -60,7 +60,7 @@ int main(int argc, char **argv) {
 	glLoadIdentity();
 	glutDisplayFunc(display);
 	glutIdleFunc(display);
-	
+
 	// Для обычных клавиш
 	glutKeyboardFunc(keyboard);
 	// Для специальных клавиш
