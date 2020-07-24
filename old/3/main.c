@@ -73,5 +73,6 @@ int main(int argc, char **argv) {
 	glutSpecialFunc(NULL);
 
 	glutMainLoop();
+	printf("Exit\n");
 	return 0;
 }
